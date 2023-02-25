@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, blue, lightblue, blue );
+    background: linear-gradient(to right, rgb(104, 134, 134), rgba(117, 158, 158, 0.842), rgb(104, 134, 134) );
 }
 
 #money{
