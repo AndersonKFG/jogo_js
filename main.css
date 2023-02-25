@@ -33,6 +33,37 @@ body{
     height: 50px;
     border-radius: 20px;
     background: linear-gradient(to right, lightblue, blue, lightblue);
+    margin-top: 10px;
+}
+
+#container_sub{
+    display: flex;
+}
+
+#minerador_1{
+    
+    width: 48.5%;
+    height: 50px;
+    background: linear-gradient(to right, lightblue, blue, lightblue);
+    margin-top: 10px;
+    margin-left:  0 auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#minerador1_ql{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 48.5%;
+    height: 34px;
+    margin-left: 1%;
+    background: linear-gradient(to right, lightblue, blue, lightblue);
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
 }
 
 #aumentar_capacidade{
@@ -43,11 +74,12 @@ body{
     margin-top: 5px;
 }
 
-#ganhar_por_click:hover,#upgrade_gpk:hover,#aumentar_capacidade:hover{
+
+#ganhar_por_click:hover,#upgrade_gpk:hover,#aumentar_capacidade:hover,#minerador_1:hover{
     cursor: pointer;
 }
 
-#ganhar_por_click:active,#upgrade_gpk:active,#aumentar_capacidade:active{   
+#ganhar_por_click:active,#upgrade_gpk:active,#aumentar_capacidade:active,#minerador_1:active{   
     background: lightblue;
     transition: 0.2s;
 }
