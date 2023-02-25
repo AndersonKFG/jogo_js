@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, blue, lightblue, blue );
+}
+
+#money{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: rgb(209, 244, 253);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#money_value{
+    margin-top: 35px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: absolute;
+    padding-top: 20px;
+}
+
+#ganhar_por_click{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to right, lightblue, blue, lightblue);
+}
+
+#ganhar_por_click:hover{
+    cursor: pointer;
+}
+
+#ganhar_por_click:active{   
+    background: lightblue;
+    transition: 0.2s;
+}
