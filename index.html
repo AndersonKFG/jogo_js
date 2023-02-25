@@ -11,12 +11,18 @@
 
     <!--PARTE QUE MOSTRA O DINHEIRO-->
     <div id="money">
-        <p id="money_value">Dinheiro atual → $$ 0</p>
+        <div id="money_value">DINHEIRO ATUAL → $$ 0</div>
+        <div id="capacidade_max">CAPACIDADE MAXIMA → $$ 10</div>
     </div>
 
-    <!--PARTE QUE GANHA DINHEIRO-->
+    <!--CAPACIDADE DE ARMAZENAMENTO DISPONIVEL-->
+    <div id="limite_alerta">GANHO DISPONIVEL = $$10.00</div>
+    <button id="aumentar_capacidade">AUMENTAR O DINHEIRO MAX - CUSTO: $$10</button>
+
     <div id="container">
+        <!--DINHEIRO POR CLICK E UPGRADE DO MESMO-->
         <button id="ganhar_por_click">CLICK = $$1</button>
+        <button id="upgrade_gpk">AUMENTAR EM 10% O GANHO POR CLICK - CUSTO: $$2</button>
     </div>
 
     <script src="main.js"></script>
